@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="icon" href="../TP 1&2/support/121-css3-512.webp">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    <div id="head" ></div>
+    <nav class="navbar navbar-expand-lg sticky-top mw-100">
+        <div class="container">
+            <i class="text-white fa-brands fa-bootstrap fa-bounce fa-2xl"></i>
+            <button class="text-white navbar-toggler border border-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 " aria-current="page" href="./acceuil.html" target="_blank">ACCEUIL</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link p-2 p-lg-3 " href="./html.html" target="_blank">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 active" href="#head">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 " href="./javascript.html" target="_blank">JAVASCRIPT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 " href="./contact.html" target="_blank">CONTACT</a>
+                    </li>
+                    
+                </ul>
+                <div class="search ps-3 pe-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a class=" btn btn-primary main-btn rounded-pill ps-4 pe-4" href="#">Login</a>
+            </div>
+        </div>
+    </nav>
+    <section >
+        <div class="landing d-flex justify-content-center align-items-center">
+            <div class="text-center text-light">
+                <h2 class="fs-1 fw-bold">CSS</h2>
+                <p style="width: 700px;" class=" lh-lg text-white-50">CSS3 est le langage de style utilisé pour mettre en forme les pages web. Il permet de définir
+                    la présentation d'une page, en spécifiant la couleur, la police, la taille, la disposition et d'autres caractéristiques
+                    visuelles des éléments HTML.</p>
+                    <a class=" btn btn-primary main-btn rounded-pill ps-4 pe-4" href="#">Get Started</a>
+            </div>
+        </div>
+        <div class="first mt-5  text-center">
+            <div class="container">
+                <img class="mb-4" src="./images/css-2.jpg" alt="">
+                <h2 class="fw-bold">Principe des feuilles de style CSS</h2>
+                <p class="mb-5 fs-5
+                +3">Les feuilles de style CSS permettent de séparer la présentation d'une page HTML de son contenu. Au lieu
+                    de définir les styles directement dans le code HTML, les développeurs web peuvent créer une feuille de style distincte
+                    qui contient toutes les règles de mise en forme. Cette approche permet de maintenir une structure claire et organisée
+                    du code HTML,de réduire la duplication de code et de faciliter les mises à jour de la mise en forme de la page.</p>
+                    <div class="row pt-5">
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="box mb-3 bg-white">
+                                <img class="mb-3" src="./images/css-3.png" alt="" width="250px" height="150px">
+                                <h3>Principe Css</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem soluta labore consequatur a doloremque</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="box mb-3 bg-white">
+                                <img class="mb-3" src="./images/css-4.jpg" alt="" width="250px" height="150px">
+                                <h3>Principe Css</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem soluta labore consequatur a doloremque</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4">
+                            <div class="box mb-3 bg-white">
+                                <img class="mb-3" src="./images/css-5.png" alt="" width="250px" height="150px">
+                                <h3>Principe Css</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem soluta labore consequatur a doloremque</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <article class="ms-5 me-5 pt-5 mt-5">
+            <h2 class="fw-bold">Sélecteurs CSS class et id</h2>
+            <p class="fs-5">Les sélecteurs CSS sont utilisés pour appliquer des styles à des éléments HTML spécifiques. Les classes
+                et les identifiants sont deux types de sélecteurs qui permettent de cibler des éléments en fonction de leur
+                attribut "class" ou "id". Les classes peuvent être utilisées pour regrouper des éléments qui ont des styles similaires,
+                tandis que les identifiants sont utilisés pour cibler des éléments spécifiques dans une page.</p>
+                <table class="w-100">
+                    <thead>
+                        <tr>
+                            <th>Sélecteur</th>
+                            <th>Exemple</th>
+                            <th>Tutoriel CSS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/Type_selectors">Sélecteur de type</a></td>
+                            <td><code>h1 { }</code></td>
+                            <td><a href="/fr/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors">Sélecteurs de
+                                    type</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/Universal_selectors">Sélecteur universel</a></td>
+                            <td><code>* { }</code></td>
+                            <td><a
+                                    href="/fr/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#the_universal_selector">The
+                                    universal selector</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/Class_selectors">Sélecteur de classe</a></td>
+                            <td><code>.box { }</code></td>
+                            <td><a href="/fr/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#class_selectors">Class
+                                    selectors</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/ID_selectors">Sélecteur d'ID</a></td>
+                            <td><code>#unique { }</code></td>
+                            <td><a href="/fr/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors#id_selectors">ID
+                                    selectors</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/Attribute_selectors">Sélecteur d'attribut</a></td>
+                            <td><code>a[title] { }</code></td>
+                            <td><a href="/fr/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors">Attribute selectors</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/Pseudo-classes">Pseudo-class selectors</a></td>
+                            <td><code>p:first-child { }</code></td>
+                            <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements#what_is_a_pseudo-class"
+                                    class="only-in-en-us" title="Currently only available in English (US)">Pseudo-classes
+                                    <small>(en-US)<small></small></small></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/Pseudo-elements">Pseudo-element selectors</a></td>
+                            <td><code>p::first-line { }</code></td>
+                            <td><a href="/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements#what_is_a_pseudo-element"
+                                    class="only-in-en-us" title="Currently only available in English (US)">Pseudo-elements
+                                    <small>(en-US)<small></small></small></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/Descendant_combinator">Sélecteur descendant</a></td>
+                            <td><code>article p</code></td>
+                            <td><a href="/fr/docs/Learn/CSS/Building_blocks/Selectors/Combinators#descendant_selector">Descendant
+                                    combinator</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/Child_combinator">Sélecteur enfant</a></td>
+                            <td><code>article &gt; p</code></td>
+                            <td><a href="/fr/docs/Learn/CSS/Building_blocks/Selectors/Combinators#child_combinator">Child combinator</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/Adjacent_sibling_combinator">Sélecteur de frère adjacent</a></td>
+                            <td><code>h1 + p</code></td>
+                            <td><a href="/fr/docs/Learn/CSS/Building_blocks/Selectors/Combinators#adjacent_sibling">Adjacent sibling</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="/fr/docs/Web/CSS/General_sibling_combinator">Sélecteur de frère général</a></td>
+                            <td><code>h1 ~ p</code></td>
+                            <td><a href="/fr/docs/Learn/CSS/Building_blocks/Selectors/Combinators#general_sibling">General sibling</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+        </article>
+        <article class="ms-5 me-5 mt-5 pt-5 pb-5" >
+            <h2 class="fw-bold">Mettre en forme un texte en CSS</h2>
+            <p class="mb-5 fs-5">Le texte est l'un des éléments les plus couramment stylisés en CSS. Pour modifier l'apparence du texte,
+                les développeurs  peuvent utiliser des propriétés telles que "font-size", "font-family", "color", "text-align" et
+                "text-decoration". Ces propriétés permettent de définir la taille de la police, la famille de la police, la couleur du texte,
+                l'alignement et la décoration du texte. En utilisant ces propriétés, les développeurs peuvent créer des styles de texte
+                personnalisés pour leur page web.</p>
+                <video class="mt-5" src="./video/2 CSS - Propriétés utiles pour le texte.mp4" width="100%" poster="./images/Beginners-guide-to-web-development-in-2023.png" controls loop></video>
+        </article>
+    </section>
+    <div class="final mt-5 mb-5">
+        <div class="container">
+            <h2 class="fw-bold">À Quoi Ressemble CSS ?</h2>
+            <p class="fs-5">CSS est composé de <strong>selecteurs</strong>, <strong>proprietés</strong>, and <strong>valeurs</strong>.</p>
+            <img src="./images/laptop-1536x1024.png" alt="" width="700px" height="400px">
+            <p class="mt-5 fs-4">Let's go over these by using an example. If you had an HTML paragraph that looked like this: <code>&lt;p&gt;Hello world!&lt;/p&gt;</code> , you
+            could style that paragraph with CSS. <br>
+            It might look like this: <br>
+            <br>
+            <code>
+                h1 { <br>
+                
+                color: white; <br>
+                
+                text-align: center; <br>
+                
+                } <br>
+            </code>
+            <br>
+            This would change the font color to white and align it in the center of the page. <br>
+            Note: You can also keep your CSS on one line, like so:
+            <code>p {font-family: verdana; font-size: 20px; color: blue}</code> <br>
+            <br>
+            Below is an example showing how CSS appears : <br>
+            <img class="mt-5" src="./images/css-syntax.png" alt="">
+            </p>
+        </div>
+    </div>
+    <footer class="mt-5 pt-5 pb-2 text-center text-md-start text-light" id="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="info">
+                        <i class="fa-brands fa-bootstrap fa-2xl mb-5"></i>
+                        <p class="text-white-50 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                            deserunt harum error impedit </p>
+                        <div class="copyright">
+                            Created By <span style="color: yellow;">Haythem Khiari</span>
+                            <div>&copy; 2023 - <span style="color: greenyellow;">ISSAT SOUSSE</span> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <h3>Links</h3>
+                    <ul class="list-unstyled text-white-50 lh-lg">
+                        <li>Home</li>
+                        <li>Our Services</li>
+                        <li>portfolio</li>
+                        <li>testimonials</li>
+                        <li>Support</li>
+                        <li>Terms and Condition</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <h3>About Us</h3>
+                    <ul class="list-unstyled text-white-50 lh-lg">
+                        <li>Sign in</li>
+                        <li>Register</li>
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h3>Contact Us</h3>
+                    <p class="lh-lg mb-5 text-white-50">Get in touch with us via mail phone. We are waiting for your call or
+                        message</p>
+                    <a class=" btn btn-primary main-btn rounded-pill ps-4 pe-4" href="#">khiarih06@gmail.com</a>
+                    <ul class="list-unstyled d-flex mt-5 gap-3">
+                        <li>
+                            <a class="d-block " href="https://www.facebook.com/">
+                                <i class="fa-brands fa-facebook fa-2xl facebook rounded-circle p-2"
+                                    style="color: #1877f2;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-block " href="https://www.youtube.com/">
+                                <i class="fa-brands fa-youtube fa-2xl youtube rounded-circle p-2"
+                                    style="color: #ff0000;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-block " href="https://www.linkedin.com">
+                                <i class="fa-brands fa-linkedin fa-2xl linkedin rounded-circle p-2"
+                                    style="color:#0a66c2 ;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-block " href="https://www.instagram.com">
+                                <i class="fa-brands fa-instagram fa-2xl instagram rounded-circle p-2"
+                                    style="color: #c13584;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
